@@ -50,8 +50,6 @@
   main {
     position: fixed;
     inset: 0;
-    pointer-events: none;
-    z-index: 10;
 
     #scroll {
       display: grid;
