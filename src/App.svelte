@@ -5,7 +5,7 @@
   import Scene from "./Scene.svelte";
 </script>
 
-<svelte:window onwheel={(e) => (reel.length -= e.deltaY)} />
+<svelte:window onwheel={(event) => (reel.length -= event.deltaY)} />
 
 <Canvas>
   <Scene />

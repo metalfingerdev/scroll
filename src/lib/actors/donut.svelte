@@ -2,10 +2,8 @@
   import { T, useTask } from "@threlte/core";
   import { reel } from "../film.svelte";
   import { interactivity } from "@threlte/extras";
-
+  import { center } from "./donut.config.js";
   interactivity();
-
-  export const center = [0, 20, 0];
 
   let rotation = $state(0);
   useTask((delta) => {
@@ -16,7 +14,9 @@
 </script>
 
 <T.Mesh
+  position.x={center[0]}
   position.y={center[1]}
+  position.z={center[2]}
   rotation.y={rotation * 2}
   rotation.x={rotation}
   rotation.z={rotation / 2}

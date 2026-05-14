@@ -3,7 +3,7 @@
   import { Stars, Floor, Shell } from "./props";
 </script>
 
+<Shell />
+<Floor />
 <Torus />
 <Stars />
-<Floor />
-<Shell />
