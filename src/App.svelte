@@ -12,8 +12,8 @@
 </Canvas>
 
 <!-- markup -->
-<main>
-  <div id="scroll" style="transform: translateY({reel.length}px)">
+<main id="content">
+  <div class="scroll" style="transform: translateY({reel.length}px)">
     <p>A Film By</p>
     <h1>Lorem Ipsum</h1>
     <section>
@@ -51,7 +51,7 @@
     position: fixed;
     inset: 0;
 
-    #scroll {
+    .scroll {
       display: grid;
       grid-template-columns: auto;
       text-align: center;
