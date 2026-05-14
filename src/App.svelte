@@ -55,7 +55,7 @@
 
     #scroll {
       display: flex;
-      flex-direction: column-reverse;
+      flex-direction: column;
       text-align: center;
       align-items: center;
     }
