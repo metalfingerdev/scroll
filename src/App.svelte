@@ -54,10 +54,9 @@
     z-index: 10;
 
     #scroll {
-      display: flex;
-      flex-direction: column;
+      display: grid;
+      grid-template-columns: auto;
       text-align: center;
-      align-items: center;
     }
   }
 </style>
