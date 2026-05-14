@@ -13,7 +13,7 @@
 
 <!-- markup -->
 <main>
-  <div id="scroll" style="transform: translateY(calc(100vh + {reel.length}px))">
+  <div id="scroll" style="transform: translateY({reel.length}px)">
     <p>A Film By</p>
     <h1>Lorem Ipsum</h1>
     <section>
