@@ -50,6 +50,7 @@
   main {
     position: fixed;
     inset: 0;
+    padding-top: 2rem;
 
     .scroll {
       display: grid;
